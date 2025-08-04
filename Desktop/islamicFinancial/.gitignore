@@ -1,0 +1,60 @@
+# =========================================
+# 🌐 Angular Frontend
+# =========================================
+
+# Node modules
+frontend/node_modules/
+
+# Angular build output
+frontend/dist/
+frontend/.angular/
+
+# Environment files
+frontend/.env
+frontend/src/environments/*.ts
+
+# IDE config
+frontend/.vscode/
+frontend/.idea/
+
+# =========================================
+# ☕ Spring Boot Backend (Java / Maven)
+# =========================================
+
+# Compiled class files
+backend/target/
+
+# Maven wrapper files
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# IDE config files
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+backend/.idea/
+backend/.vscode/
+
+# Logs and temp files
+backend/*.log
+
+# =========================================
+# 🛠 Common
+# =========================================
+
+# macOS
+.DS_Store
+
+# Environment and logs
+*.env
+*.log
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.swp
